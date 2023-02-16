@@ -11,7 +11,7 @@ In order to create a Voting App, there is several steps :
 
 # Progression
 
-06/01/2023 : Start of the project
+Day 1 : Start of the project
 - Setting up the django project
 - Installing the environment because I am using Windows:
 ```sh
@@ -23,16 +23,22 @@ python manage.py migrate
 ```
 - Creating an initial mockup to have an idea first
 
-![alt text](https://i.ibb.co/82JDRRF/2023-01-07-22-14-53-Window.png)
+![day 1](https://i.ibb.co/82JDRRF/2023-01-07-22-14-53-Window.png)
 
-07/01/2023 : Setting up everything using Django
+Day 2 : Setting up everything using Django
 - Creating the form for the "Create" vote page using a model CreateForm
 - Setting up the results page to display the results
 - Setting up the "Vote" page to vote. The user chooses between three options and the value chosen by the user will be stored thanks to POST method in the form.
 Here is the database after creating some questions and voting. We have the id of the question in the beginning, following by the question, the options and the results by the number.
-![alt text](https://i.ibb.co/y0Gm8vP/2023-01-07-22-43-01-Window.png)
+![day 2](https://i.ibb.co/y0Gm8vP/2023-01-07-22-43-01-Window.png)
 And the questions are also displaying correctly in the home page:
 
 ![alt text](https://i.ibb.co/cvXRznV/2023-01-07-22-51-42-Window.png)
 
 Negative point: only three options available. The user can not create a question with two answers or more than three answers. It is limited to three answers only.
+
+Day 3 : Adding a data visualization part
+- Adding a data vizualisation representation for the results page
+- Using Chart.js
+
+![day 3](https://i.ibb.co/c1kj3fn/image.png)
