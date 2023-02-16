@@ -12,7 +12,7 @@
                 <h3 class="panel-title">Create A New Vote</h3>
             </div>
                 
-            <form method="POST">
+            <form method="POST" id="form">
                 {% csrf_token %}
                 <div class="panel-body">
                     <div class="row">
@@ -30,14 +30,10 @@
                                 <label for="option1">Option 1</label>
                                 {% render_field form.option_one class='form-control' %}
                             </div>
-                        </div>
-                        <div class="col-lg-4">
                             <div class="form-group">
                                 <label for="option2">Option 2</label>
                                 {% render_field form.option_two class='form-control' %}
                             </div>
-                        </div>
-                        <div class="col-lg-4">
                             <div class="form-group">
                                 <label for="option3">Option 3</label>
                                 {% render_field form.option_three class='form-control' %}
@@ -57,4 +53,12 @@
         </div>
     </div>
 </div>
-{% endblock %}
+
+<style>
+    .dynamic-options {
+        margin-bottom: 10px;
+    }
+</style>
+
+{% endblock %} 
+
