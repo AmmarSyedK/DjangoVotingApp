@@ -1,5 +1,5 @@
 
-# Django Project - Voting App
+# Django Project - Voting Appp
 
 The objective of this project is to create a Voting Application using Django.
 In order to create a Voting App, there is several steps :
@@ -28,7 +28,7 @@ python manage.py migrate
 Day 2 : Setting up everything using Django
 - Creating the form for the "Create" vote page using a model CreateForm
 - Setting up the results page to display the results
-- Setting up the "Vote" page to vote. The user chooses between three options and the value chosen by the user will be stored thanks to POST method in the form.
+- Setting upp the "Vote" page to vote. The user chooses between three options and the value chosen by the user will be stored thanks to POST method in the form.
 Here is the database after creating some questions and voting. We have the id of the question in the beginning, following by the question, the options and the results by the number.
 ![day 2](https://i.ibb.co/y0Gm8vP/2023-01-07-22-43-01-Window.png)
 And the questions are also displaying correctly in the home page:
