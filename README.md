@@ -1,6 +1,8 @@
 
 # Django Project - Voting Appp
 
+Test - AutoCommit
+
 The objective of this project is to create a Voting Application using Django.
 In order to create a Voting App, there is several steps :
 
