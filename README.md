@@ -1,5 +1,5 @@
 
-# Change Django Project - Voting App
+# Changee Django Project - Voting App
 
 The objective of this project is to create a Voting Application using Django.
 In order to create a Voting App, there is several steps :
